@@ -107,11 +107,11 @@ record InformacionHogar(Date date, String nombre, String gradoEscolaridad, Strin
         promedioHabitaciones = promedioHabitaciones.divide(BigDecimal.valueOf(numTotalHogares));
         
         
-        System.out.println("Del total de personas que equivale a "+numTotalHogares+" personas, el promedio de edad es de "
+        System.out.println("Del total de personas que equivale a "+numTotalHogares+" personas, el salario promedio es "
                 + ""+promedioSalario.setScale(0, RoundingMode.HALF_UP)+" pesos");
-        System.out.println("Del total de personas que equivale a "+numTotalHogares+" personas, el promedio de estrato es de "
+        System.out.println("Del total de personas que equivale a "+numTotalHogares+" personas, en promedio consumen estas comidas "
                 + ""+promedioComidas.setScale(0, RoundingMode.HALF_UP));
-        System.out.println("Del total de personas que equivale a "+numTotalHogares+" personas, el promedio de numero de hijos es de "
+        System.out.println("Del total de personas que equivale a "+numTotalHogares+" personas, el promedio de numero de habitaciones es de "
                 + ""+promedioHabitaciones.setScale(0, RoundingMode.HALF_UP));
         
         
